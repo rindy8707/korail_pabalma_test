@@ -7,10 +7,10 @@ import requests
 import httpx
 #from mcp.server.fastmcp import FastMCP
 import urllib
-#mcp = FastMCP(host="0.0.0.0", port="8080")
-from mcp.server.mcpserver import MCPServer
+mcp = FastMCP(host="0.0.0.0", port="8080")
+# from mcp.server.mcpserver import MCPServer
 
-mcp = MCPServer("korail_telnet")
+# mcp = MCPServer("korail_telnet")
 
 
 @mcp.tool()
